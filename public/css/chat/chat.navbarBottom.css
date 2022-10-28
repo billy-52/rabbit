@@ -1,0 +1,68 @@
+#navbarBottomContainer {
+    position: fixed;
+    bottom: 0;
+    padding-bottom: .2em;
+    width: 100%;
+    height: var(--navbar-bottom-height);
+    overflow: hidden;
+    background: inherit;
+}
+
+#navbarBottomGrid {
+    margin: 0 2% 0 2%;
+    display: grid;
+    grid-template-columns: 9% 80% 9%;
+    grid-column-gap: 1%;
+    height: 100%;
+}
+
+#navbarBottomBar {
+    background: var(--msg-in-bgcolor);
+    border-radius: 2em;
+    border: .1em solid white;
+}
+
+#navbarBottomInput {
+    width: 95%;
+    background: none;
+    margin: .7em 1em 0 1em;
+    border: none;
+    outline: none;
+    color: var(--msg-color);
+}
+
+#navbarBottomInput:focus {
+    outline: none;
+}
+
+#navbarBottomInput::placeholder {
+    color: var(--msg-color);
+}
+
+#navbarBottomSend {
+    background-color: var(--msg-out-bgcolor);
+    background-image: url(/public/img/send.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1.5em;
+
+    color: var(--msg-color);
+    border: none;
+
+    border-radius: 2em;
+    border: .1em solid white;
+}
+
+#navbarBottomExit {
+    background-color: var(--red);
+    background-image: url(/public/img/exit.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1.5em;
+
+    color: var(--msg-color);
+    border: none;
+
+    border-radius: 2em;
+    border: .1em solid white;
+}

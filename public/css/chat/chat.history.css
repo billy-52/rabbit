@@ -1,0 +1,10 @@
+/* how msgs will be displayed in chat history */
+
+.chat.history {
+    display: grid;
+    grid-auto-columns: 1fr 100%;
+    grid-gap: .5em;
+
+    margin-bottom: var(--navbar-bottom-height);
+    padding-bottom: .2em;
+}

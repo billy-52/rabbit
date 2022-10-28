@@ -1,0 +1,38 @@
+/* global variables */
+
+:root {
+    --font: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    --navbar-bottom-height: 2.5em;
+
+    /* colors */
+    --background-gradient: linear-gradient(45deg,
+            rgb(245, 80, 80),
+            rgb(244, 162, 97),
+            rgb(214, 124, 64));
+    --msg-color: rgb(255, 255, 255);
+    --msg-out-bgcolor: rgb(50, 184, 168);
+    --msg-in-bgcolor: rgb(61, 110, 129);
+    --red: rgb(245, 80, 80);
+}
+
+/* background + animation */
+
+@keyframes background-animation {
+    0% {
+        background-position: left;
+    }
+
+    100% {
+        background-position: right;
+    }
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: var(--background-gradient);
+    background-size: 400%;
+    background-attachment: fixed;
+    animation: background-animation 20s infinite alternate;
+}

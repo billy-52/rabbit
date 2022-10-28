@@ -1,0 +1,52 @@
+/* msg containers */
+
+.chat.msg.out.container {
+    float: right;
+    width: auto;
+    max-width: 75%;
+
+    background-color: var(--msg-out-bgcolor);
+    border-radius: 1.8em 1.8em 0 1.8em;
+
+    color: var(--msg-color);
+    font-family: var(--font);
+}
+
+.chat.msg.in.container {
+    float: left;
+    width: auto;
+    max-width: 75%;
+
+    background-color: var(--msg-in-bgcolor);
+    border-radius: 1.8em 1.8em 1.8em 0;
+
+    color: var(--msg-color);
+    font-family: var(--font);
+}
+
+/* msg styles */
+
+.chat.msg {
+    /* clear unwanted inherits */
+    float: none;
+    margin: 0;
+
+    display: inline-block;
+    padding: 0.2em;
+}
+
+.chat.msg.content {
+    word-break: break-word;
+}
+
+.chat.msg.name {
+    margin-left: 0.5em;
+    font-weight: bold;
+    font-size: smaller;
+}
+
+.chat.msg.time-date {
+    width: 98%;
+    text-align: right;
+    font-size: small;
+}
