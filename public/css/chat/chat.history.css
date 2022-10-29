@@ -5,6 +5,7 @@
     grid-auto-columns: 1fr 100%;
     grid-gap: .5em;
 
-    margin-bottom: var(--navbar-bottom-height);
+    margin-top: var(--navbar-height);
+    margin-bottom: var(--navbar-height);
     padding-bottom: .2em;
 }

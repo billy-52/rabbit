@@ -1,0 +1,51 @@
+#navbarTopContainer {
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    width: 100%;
+    height: var(--navbar-height);
+    background: inherit;
+}
+
+#navbarTop {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 100%;
+    background: var(--msg-in-bgcolor);
+}
+
+#navbarTopContact {
+    background-image: url(/public/img/contact.png);
+    background-size: 1.5em;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: inherit;
+    border: none;
+}
+
+#navbarTopDownload {
+    background-image: url(/public/img/download.png);
+    background-size: 1.5em;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: inherit;
+    border: none;
+}
+
+#navbarTopUpload {
+    background-image: url(/public/img/upload.png);
+    background-size: 1.5em;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: inherit;
+    border: none;
+}
+
+#navbarTopExitall {
+    background-image: url(/public/img/exit_all.png);
+    background-size: 1.5em;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: inherit;
+    border: none;
+}

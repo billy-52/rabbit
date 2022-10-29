@@ -5,16 +5,26 @@
     <title>Rabbit</title>
     <link rel="icon" href="../public/img/logo.png">
 
-    <!-- possible fix for mobile scaling?? -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- fix mobile scaling -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <!-- import stylesheets -->
     <link rel="stylesheet" href="../public/css/chat/chat.css">
     <link rel="stylesheet" href="../public/css/chat/chat.history.css">
     <link rel="stylesheet" href="../public/css/chat/chat.msg.css">
+    <link rel="stylesheet" href="../public/css/chat/chat.navbarTop.css">
     <link rel="stylesheet" href="../public/css/chat/chat.navbarBottom.css">
 </head>
 
 <body>
+    <div id="navbarTopContainer">
+        <div id="navbarTop">
+            <input id="navbarTopContact" type="button">
+            <input id="navbarTopDownload" type="button">
+            <input id="navbarTopUpload" type="button">
+            <input id="navbarTopExitall" type="button">
+        </div>
+    </div>
+
     <div class="chat history">
         <div class="chat history msg">
             <div class="chat msg out container">
@@ -32,7 +42,10 @@
             <div class="chat msg in container">
                 <div class="chat msg">
                     <p class="chat msg name">sleepyGorilla</p><br>
-                    <p class="chat msg content">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p><br>
+                    <p class="chat msg content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Vel facilisis volutpat est velit
+                        egestas dui id ornare arcu. Sem et tortor consequat id porta nibh venenatis cras. Diam maecenas
+                        ultricies mi eget. Nisi quis eleifend quam adipiscing vitae proin.</p><br>
                     <p class="chat msg time-date">13:21 - 17.08.22</p>
                 </div>
             </div>

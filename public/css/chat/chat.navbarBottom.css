@@ -3,7 +3,7 @@
     bottom: 0;
     padding-bottom: .2em;
     width: 100%;
-    height: var(--navbar-bottom-height);
+    height: var(--navbar-height);
     overflow: hidden;
     background: inherit;
 }
